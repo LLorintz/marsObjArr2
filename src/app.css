@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+--pry-fonts: "Roboto", sans-serif;
+--dark-green: hsla(178, 77%, 7%, 1);
+--tiffany-blue: hsla(158, 44%, 78%, 1);
+--hunyadi-yellow: hsla(39, 92%, 57%, 1);
+--cinereous: hsla(13, 13%, 47%, 1);
+--wenge: hsla(16, 13%, 39%, 1);
+}
+
+body{
+    font-family: var(--pry-fonts);
+    display: flex;
+    justify-content: center;
+    background-color: var(--wenge);
+    color: var(--dark-green); 
+}
+
+.container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.ResourceContainer{
+    background-color: var(--cinereous);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.ResourceContainer p{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.ResourceContainer span{
+font-weight: 700;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonContainer button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--tiffany-blue);
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.buttonContainer button:hover{
+    background-color: var(--hunyadi-yellow);
+}
+
+
+
+.productionContainer{
+    margin-top: 5px;
+}
+
